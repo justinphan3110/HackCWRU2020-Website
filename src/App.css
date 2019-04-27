@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: prstartk;
+  src: url("./Assets/font/prstartk.ttf");
+}
+
+  /** 
+  These are the content related css files
+  **/
+.header {
+  position: relative;
+  padding: 10%;
+  top: 30%;
+}
+
+#CWRUTitle {
+  width: 100%;
+  height: auto;
+}
+
+#subTitle {
+  width: 400px;
+  height: auto;
+  float: right;
+
+}
+
+#CWRU { /** In .header **/
+  font-family: prstartk;
+  color: #218632;
+  font-size: 20px;
+}
+
+#date { /** In .header **/
+  font-family: prstartk;
+  color: #163660;
+  font-size: 20px;
+}
+
+.myLogo {
+  position: relative;
+  width: 15%;
+  height: auto;
+}
+
+.spartonLogo img {
+  position: relative;
+  left: 450px;
+  width:100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .theText img {
+    height: 40px;
+  }
+}
+
+
+
+
+
+
+
