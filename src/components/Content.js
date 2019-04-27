@@ -3,12 +3,14 @@ import hackCWRUTitle from '../Assets/Title.svg';
 import subTitle from '../Assets/Subtitle 2020.svg';
 import buttonUp from '../Assets/register button up.svg';
 import Logo from './Logo.js';
+import Countdown from './Countdown.js';
 
 class Content extends Component {
     render() {
         return (
           <div className = "mainContent"  >
-            <div className = "header">
+            <Countdown />
+            <div className = "header">  
                 <img id = "CWRUTitle" src =  {hackCWRUTitle}/>  
                 <img id = "subTitle"  src = {subTitle}/>
                 <Logo />

@@ -36,20 +36,34 @@
   font-family: prstartk;
   src: url("./Assets/font/prstartk.ttf");
 }
+  /** Count Down Line **/
+.countdown {
+  position: fixed;
+  z-index: 2;
+  left: 140px;
+}
+
+#countdownText {
+  font-family: prstartk;
+  color: #F3DFDF;
+  font-size: 20px;
+}
+
 
   /** 
   These are the content related css files
   **/
 
+  
 .header {
   position: relative;
   padding: 10%;
-  top: 30%;
 }
 
 #CWRUTitle {
   width: 100%;
   height: auto;
+  top: 200px;
 }
 
 #subTitle {
@@ -67,7 +81,7 @@
 
 #date { /** Text In .header **/
   font-family: prstartk;
-  color: #163660;
+  color: #1B81AE;
   font-size: 20px;
 }
 
@@ -87,7 +101,7 @@
 
 
 @media only screen and (max-width: 600px) {
-  .theText img {
+  .header img {
     height: 40px;
   }
 }
