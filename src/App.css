@@ -40,6 +40,7 @@
   /** 
   These are the content related css files
   **/
+
 .header {
   position: relative;
   padding: 10%;
@@ -58,13 +59,13 @@
 
 }
 
-#CWRU { /** In .header **/
+#CWRU { /** Text In .header **/
   font-family: prstartk;
   color: #218632;
   font-size: 20px;
 }
 
-#date { /** In .header **/
+#date { /** Text In .header **/
   font-family: prstartk;
   color: #163660;
   font-size: 20px;
@@ -78,8 +79,10 @@
 
 .spartonLogo img {
   position: relative;
+  padding: 20%;
   left: 450px;
   width:100%;
+  height: auto;
 }
 
 
