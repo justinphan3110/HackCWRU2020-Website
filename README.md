@@ -2,7 +2,8 @@
 
 ### Updated with Title, Logo, and Header
 
-![image](https://user-images.githubusercontent.com/44376091/56844901-4429b080-6886-11e9-8ee5-c4ecdaf2501d.png)
+![image](https://user-images.githubusercontent.com/44376091/56853975-20ee1800-68fd-11e9-8c53-c42f70f5d1b7.png)
+
 
 
 #### Compile info in nvm (updated 4/27/2019)
