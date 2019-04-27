@@ -1,4 +1,18 @@
+
+
+### Updated with Title, Logo, and Header
+
+![image](https://user-images.githubusercontent.com/44376091/56844901-4429b080-6886-11e9-8ee5-c4ecdaf2501d.png)
+
+
+
+
+
+
+## React Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
