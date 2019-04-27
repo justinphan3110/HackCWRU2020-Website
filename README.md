@@ -1,8 +1,7 @@
 
 
 ### Updated with Title, Logo, and Header
-
-![image](https://user-images.githubusercontent.com/44376091/56853975-20ee1800-68fd-11e9-8c53-c42f70f5d1b7.png)
+![image](https://user-images.githubusercontent.com/44376091/56854884-ad9fd280-690b-11e9-8cc7-09df0861f8a8.png)
 
 
 
