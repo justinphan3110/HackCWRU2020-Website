@@ -35,15 +35,14 @@
 
 body {
   background-image:url("./Assets/backgrounds/Header_Section_Background.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
+}
+
+body,html {
   margin: 0px;
   padding: 0px;
   height: 100%;
-}
-
-html {
-  height: 100%
 }
 
   /** Count Down Line **/
@@ -100,7 +99,7 @@ html {
   font-size: 25px;
 }
 
-/**/
+/* Sparton Logo in Intro*/
 .myLogo {
   position: relative;
   width: 15%;
@@ -115,45 +114,55 @@ html {
   height: 100%;
 }
 
+/* About Section */
+#aboutTitle {
+  font-family: prstartk;
+  color: chocolate;
+  font-size: 25px;
+}
 
-  /** responsive for mobile phone **/
-  @media only screen and (max-width: 600px) {
-    .header {
+#aboutContent {
+  font-family: prstartk;
+  color: #D5DDE2;
+  font-size: 20px;
+  left: 500px;
+}
+
+
+/** responsive for mobile phone **/
+@media only screen and (max-width: 600px) {
+  .countdown {
+    position: relative;
+    top: 120px;
+  }
+  
+  #countdownText {
+    font-family: prstartk;
+    color: #F3DFDF;
+    font-size: 7px;
+  }
+  .header {
       position: relative;
       padding: 10%;
       top: 100px;
-    }
-  
-  
-    #comingSoon {
-      font-family: prstartk;
-      color: #D5DDE2;
-      font-size: 20px;
-    }
-  
-    #CWRU { 
+  }
+  #CWRU { 
       font-family: prstartk;
       color: #218632;
       font-size: 15px;
-    }
+  }
     
-    #date {
+  #date {
       font-family: prstartk;
       color: #1B81AE;
       font-size: 15px;
-    }
-  
-    .countdown {
-      position: relative;
-      top: 120px;
-    }
-    
-    #countdownText {
-      font-family: prstartk;
-      color: #F3DFDF;
-      font-size: 5px;
-    }
   }
+  #comingSoon {
+      font-family: prstartk;
+      color: #D5DDE2;
+      font-size: 20px;
+  }
+}
 
   
 

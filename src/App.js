@@ -4,6 +4,7 @@ import Content from "./components/Content.js";
 import headerBackground from "./Assets/backgrounds/Header_Section_Background.svg";
 import './App.css';
 import Countdown from './components/Countdown.js';
+import About from './components/About.js';
 
 class App extends Component{
   constructor(props){
@@ -16,6 +17,7 @@ class App extends Component{
         <section className = "introduction" style={{ backgroundImage: `url(${headerBackground})` }}>
           <Countdown HackDate = 'Feb 15, 2020 21:00:00'/>
           <Content />
+          <About />
         </section>
       </div>
     );
