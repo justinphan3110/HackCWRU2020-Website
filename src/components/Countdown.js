@@ -1,16 +1,37 @@
 import React, { Component } from 'react';
 
 class Countdown extends Component{
+    // Constructor 
+    constructor (props) {
+        super(props);
+        const {HackDate} = this.props;
+        this.state = {
+            timeLeft : this.setCountdown(HackDate)
+        };
+    }
+
+
     render(){
-        var message = this.setCountdown("Feb 15, 2020 15:37:25");
+        const {timeLeft} = this.state;
+        console.log("Time Left : " + timeLeft);
         return (
             <div className = "countdown">
                 <h3 id = "countdownText"> COUNTDOWN TO HACKCWRU 2020: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                          {message}</h3>
+                                          {timeLeft}</h3>
             </div>
         )
     }
     
+    componentDidMount(){
+        setInterval(() => {
+            this.setState({
+                timeLeft: this.setCountdown(this.props.HackDate)
+            })
+        }, 1000);
+    }
+
+
+
     // function to set the countdown time
     setCountdown(HackDate) {
         // Set the date count down to
@@ -27,8 +48,11 @@ class Countdown extends Component{
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            var result = days + " : " + hours + " : " + minutes + " : " + seconds;
-            console.log(result);
+            if(days == 0 && hours == 0 && minutes == 0 && seconds == 0)
+                result = "On Going";
+            else 
+                var result = days + " : " + hours + " : " + minutes + " : " + seconds;
+        
             return result; 
     }
 

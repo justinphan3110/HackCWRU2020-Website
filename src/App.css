@@ -37,6 +37,7 @@
   src: url("./Assets/font/prstartk.ttf");
 }
 
+/** removed top white space in web **/
 * {
   margin: 0;
   padding: 0;
@@ -46,10 +47,10 @@
   vertical-align: baseline;
   background: transparent;
 }
+
   /** Count Down Line **/
 .countdown {
   position: relative;
-  z-index: 2;
   top: 50px;
 }
 
