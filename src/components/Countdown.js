@@ -16,7 +16,7 @@ class Countdown extends Component{
         console.log("Time Left : " + timeLeft);
         return (
             <div className = "countdown">
-                <h3 id = "countdownText"> COUNTDOWN TO HACKCWRU 2020: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h3 id = "countdownText"> COUNTDOWN TO HACKCWRU 2020: &nbsp;
                                           {timeLeft}</h3>
             </div>
         )
