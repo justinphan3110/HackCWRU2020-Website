@@ -49,16 +49,24 @@
   font-size: 100%;
 }
 
+body {
+  background-image:url("./Assets/backgrounds/Header_Section_Background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html {
+  height: 100%
+}
   /** Count Down Line **/
 .countdown {
   position: relative;
-  top: 50px;
+  top: 100px;
 }
 
 #countdownText {
   font-family: prstartk;
   color: #F3DFDF;
-  font-size: 100%;
+  font-size: 15px;
 }
 
 
@@ -103,11 +111,6 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
-  .header img {
-    height: 40px;
-  }
-}
 /**/
 .myLogo {
   position: relative;
@@ -121,5 +124,38 @@
   left: 250%;
   width:100%;
   height: 100%;
+}
+
+/** responsive for mobile phone **/
+@media only screen and (max-width: 600px) {
+
+  #comingSoon {
+    font-family: prstartk;
+    color: #D5DDE2;
+    font-size: 20px;
+  }
+
+  #CWRU { 
+    font-family: prstartk;
+    color: #218632;
+    font-size: 15px;
+  }
+  
+  #date {
+    font-family: prstartk;
+    color: #1B81AE;
+    font-size: 15px;
+  }
+
+  .countdown {
+    position: relative;
+    top: 15px;
+  }
+  
+  #countdownText {
+    font-family: prstartk;
+    color: #F3DFDF;
+    font-size: 5px;
+  }
 }
 

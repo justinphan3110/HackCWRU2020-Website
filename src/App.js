@@ -12,8 +12,8 @@ class App extends Component{
 
   render() {
     return (
-      <div className = "App">
-        <section className = "introduction" style={{ backgroundImage: `url(${headerBackground})` }}>
+      <div className = "App" >
+        <section className = "introduction"  style={{ backgroundImage: `url(${headerBackground})` }}>
           <Countdown HackDate = 'Feb 15, 2020 21:00:00'/>
           <Content />
         </section>
