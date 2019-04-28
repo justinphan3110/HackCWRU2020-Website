@@ -15,7 +15,6 @@ class Content extends Component {
                 <h3 id = "CWRU">Case Western Reserve University</h3>
                 <h4 id = "date">February 15-17th 2020 </h4>  <br/><br/>
                 <h1 id = "comingSoon"> Coming Soon...! </h1>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>  
         );

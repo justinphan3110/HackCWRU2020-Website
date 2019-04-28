@@ -38,19 +38,10 @@
   src: url("./Assets/font/prstartk.ttf");
 }
 
-/** removed top white space in web **/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-}
-
 body {
   background-image:url("./Assets/backgrounds/Header_Section_Background.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -60,10 +51,6 @@ html {
   height: 100%
 }
 
-.introduction {
-  background-color: rgb(202, 104, 129);
-  background-size: cover;
-}
   /** Count Down Line **/
 .countdown {
   position: relative;
