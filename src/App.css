@@ -1,4 +1,3 @@
-@import url('./Assets/responsiveCSS/mobile.css') screen and (max-width: 600px) ;
 
 .App {
   text-align: center;
@@ -18,10 +17,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -120,45 +115,45 @@ html {
   height: 100%;
 }
 
-/** responsive for mobile phone **/
-@media only screen and (max-width: 600px) {
-  .header {
-    position: relative;
-    padding: 10%;
-    top: 100px;
-  }
 
-
-  #comingSoon {
-    font-family: prstartk;
-    color: #D5DDE2;
-    font-size: 20px;
-  }
-
-  #CWRU { 
-    font-family: prstartk;
-    color: #218632;
-    font-size: 15px;
-  }
+  /** responsive for mobile phone **/
+  @media only screen and (max-width: 600px) {
+    .header {
+      position: relative;
+      padding: 10%;
+      top: 100px;
+    }
   
-  #date {
-    font-family: prstartk;
-    color: #1B81AE;
-    font-size: 15px;
-  }
-
-  .countdown {
-    position: relative;
-    top: 120px;
-  }
   
-  #countdownText {
-    font-family: prstartk;
-    color: #F3DFDF;
-    font-size: 5px;
+    #comingSoon {
+      font-family: prstartk;
+      color: #D5DDE2;
+      font-size: 20px;
+    }
+  
+    #CWRU { 
+      font-family: prstartk;
+      color: #218632;
+      font-size: 15px;
+    }
+    
+    #date {
+      font-family: prstartk;
+      color: #1B81AE;
+      font-size: 15px;
+    }
+  
+    .countdown {
+      position: relative;
+      top: 120px;
+    }
+    
+    #countdownText {
+      font-family: prstartk;
+      color: #F3DFDF;
+      font-size: 5px;
+    }
   }
-}
-
 
   
 
