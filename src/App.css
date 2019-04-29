@@ -162,6 +162,10 @@ body,html {
       color: #D5DDE2;
       font-size: 20px;
   }
+
+.about {
+  display: none;
+}
 }
 
   
