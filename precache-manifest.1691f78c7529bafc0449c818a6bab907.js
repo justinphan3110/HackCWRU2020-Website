@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dffe0994509038be3bc8b0ea41a53e9",
+    "revision": "23b0f2c7345ce1275aaed7488e99f0d7",
     "url": "/HackCWRU2020-Website/index.html"
   },
   {
-    "revision": "038f34f201c1905eddfe",
-    "url": "/HackCWRU2020-Website/static/css/main.c471fdcc.chunk.css"
+    "revision": "9d8ce85046d655bee374",
+    "url": "/HackCWRU2020-Website/static/css/main.13b7d65b.chunk.css"
   },
   {
     "revision": "ec17dd9d751765d291bb",
     "url": "/HackCWRU2020-Website/static/js/2.609907aa.chunk.js"
   },
   {
-    "revision": "038f34f201c1905eddfe",
-    "url": "/HackCWRU2020-Website/static/js/main.b1cd12d0.chunk.js"
+    "revision": "9d8ce85046d655bee374",
+    "url": "/HackCWRU2020-Website/static/js/main.bf848565.chunk.js"
   },
   {
     "revision": "cdb5e08686604baf7b40",
