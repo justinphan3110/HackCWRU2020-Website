@@ -35,7 +35,7 @@ class Countdown extends Component{
     // function to set the countdown time
     setCountdown(HackDate) {
         // Set the date count down to
-        var countDownDate = new Date(HackDate).getTime();
+        const countDownDate = new Date(HackDate).getTime();
         // Update the countdown every second
             // Get current time
             var currentTime = new Date().getTime();

@@ -9,8 +9,8 @@ class Content extends Component {
         return (
           <div className = "mainContent" >
             <div className = "header">  
-                <img id = "CWRUTitle" src =  {hackCWRUTitle}/>  
-                <img id = "subTitle"  src = {subTitle}/>
+                <img id = "CWRUTitle" src =  {hackCWRUTitle} alt = "The HackCWRU7 Title"/>  
+                <img id = "subTitle"  src = {subTitle} alt = "The 2020 subtitle" />
                 <Logo />
                 <h3 id = "CWRU">Case Western Reserve University</h3>
                 <h4 id = "date">February 15-17th 2020 </h4>  <br/><br/>

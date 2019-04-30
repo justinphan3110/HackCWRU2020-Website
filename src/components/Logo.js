@@ -6,7 +6,7 @@ class Logo extends Component{
         return (
             <div className="myLogo">
                 <div className ="spartonLogo">
-                    <img src={SpartonLogo} />
+                    <img src={SpartonLogo} alt = "The main Logo for the HackCWRU2020" />
                 </div>
             </div>
         )
