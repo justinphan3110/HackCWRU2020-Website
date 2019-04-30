@@ -16,7 +16,7 @@ class Countdown extends Component{
         console.log("Time Left : " + timeLeft);
         return (
             <div className = "countdown">
-                <h3 id = "countdownText"> COUNTDOWN TO HACKCWRU 2020: &nbsp;
+                <h3 id = "countdownText"> COUNTDOWN TO HACKCWRU 2020:   &nbsp;
                                           {timeLeft}</h3>
             </div>
         )
@@ -39,7 +39,7 @@ class Countdown extends Component{
         // Update the countdown every second
             // Get current time
             var currentTime = new Date().getTime();
-
+            var result = "";
             var distance = countDownDate - currentTime;
 
             // Time calculations for days, hours, minutes and seconds
@@ -48,10 +48,10 @@ class Countdown extends Component{
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            if(days == 0 && hours == 0 && minutes == 0 && seconds == 0)
+            if(days === 0 && hours === 0 && minutes === 0 && seconds === 0)
                 result = "On Going";
             else 
-                var result = days + " : " + hours + " : " + minutes + " : " + seconds;
+                result = days + " : " + hours + " : " + minutes + " : " + seconds;
         
             return result; 
     }
